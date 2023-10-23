@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="AÑADIR INMUEBLE"
+        android:text="@string/titulo"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -23,20 +23,20 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/txtDireccionAddInmueble"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:layout_marginEnd="10dp"
+            android:layout_weight="5"
+            android:hint="@string/direccion"
+            android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextNumber3"
+            android:id="@+id/txtNumeroAddInmueble"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
+            android:hint="@string/numero"
             android:inputType="number" />
     </LinearLayout>
 
@@ -46,21 +46,21 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextNumber4"
+            android:id="@+id/txtCPAddInmueble"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:hint="@string/cp"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/txtCiudadAddInmueble"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/ciudad"
+            android:inputType="text" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,19 +69,21 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextText6"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtProvinciaAddInmueble"
+            android:layout_width="172dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50"
+            android:hint="@string/provincia"
+            android:inputType="text" />
 
         <RatingBar
-            android:id="@+id/ratingBar2"
+            android:id="@+id/rbValoracionAddInmueble"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:numStars="5"
+            android:stepSize="0.5" />
     </LinearLayout>
 
     <LinearLayout
@@ -90,17 +92,21 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnCancelarAddInmueble"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/cancelar"
+            app:cornerRadius="0dp" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
+            android:id="@+id/btnInsertarAddInmueble"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_weight="4"
+            android:text="@string/insertar"
+            app:cornerRadius="0dp" />
     </LinearLayout>
 
 </LinearLayout>
