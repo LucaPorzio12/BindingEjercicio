@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "luca.porzio.bindingejercicio"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "luca.porzio.bindingejercicio"
