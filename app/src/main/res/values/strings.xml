@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BindingEjercicio</string>
     <string name="titulo">AÑADIR INMUEBLE</string>
+    <string name="titulo2">EDITAR INMUEBLE</string>
     <string name="direccion">Direccion</string>
     <string name="numero">Número</string>
     <string name="cp">CP</string>

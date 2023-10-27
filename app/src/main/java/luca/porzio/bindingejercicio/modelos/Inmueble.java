@@ -1,6 +1,8 @@
 package luca.porzio.bindingejercicio.modelos;
 
-public class Inmueble {
+import java.io.Serializable;
+
+public class Inmueble implements Serializable {
     private String direccion;
     private int numero;
     private String cp;
